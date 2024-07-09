@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>旅宿通 &mdash; 您的多功能訂房網站</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt="trillo logo" class="logo" />
+
+        <form action="#" class="search">
+          <input type="text" class="search__input" placeholder="找尋飯店" />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">43</span>
+          </div>
+          <div class="user-nav__user">
+            <img
+              src="img/user.jpg"
+              alt="User photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">劉彼得</span>
+          </div>
+        </nav>
+      </header>
+
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>飯店</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                </svg>
+                <span>航班</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <span>租車</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>景點</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">&copy; 2024 旅宿通</div>
+        </nav>
+
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-1.jpg"
+                alt="Photo of hotel 1"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-2.jpg"
+                alt="Photo of hotel 2"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-3.jpg"
+                alt="Photo of hotel 3"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">香格里拉</h1>
+
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">台北, 臺灣</button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">9.1</div>
+              <div class="overview__rating-count">1,5293 則評分</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                謝公最小偏憐女，簾外春寒賜錦袍，獨在異鄉為異客，弟兄羈旅各西東，淚盡羅巾夢不成，
+                待曉堂前拜舅姑，馬上相逢無紙筆，煙花三月下揚州，不知何處吹蘆管，終見降王走傳車，
+                鳳尾香羅薄幾重，雲山況是客中過。
+              </p>
+              <p class="paragraph">
+                風塵荏苒音書絕，蕭條異代不同時，武侯祠屋常鄰近，銅雀春深鎖二喬，煙籠寒水月籠沙。
+              </p>
+              <ul class="list">
+                <li class="list__item">靠近海灘</li>
+                <li class="list__item">含早餐</li>
+                <li class="list__item">免費機場接駁車</li>
+                <li class="list__item">免費無線網路</li>
+                <li class="list__item">提供外語服務(英文)</li>
+                <li class="list__item">可攜帶寵物</li>
+                <li class="list__item">客房禁菸</li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend__count">詹姆士和其他4位朋友推薦這間飯店.</p>
+                <div class="recommend__friends">
+                  <img
+                    src="img/user-3.jpg"
+                    alt="Friend 1"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-4.jpg"
+                    alt="Friend 2"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-5.jpg"
+                    alt="Friend 3"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-6.jpg"
+                    alt="Friend 4"
+                    class="recommend__photo"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="user-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  衛生紙時有：如何了是因為我。我還是會累積的平台，個新不說人什麼不了，可以的⋯非我開來說來找我被你，
+                  會變做這可以吃表都很，為有也很喜這個到了一我會覺。
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-1.jpg"
+                    alt="User 1"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">尼克</p>
+                    <p class="review__user-date">Jan 12nd, 2024</p>
+                  </div>
+                  <div class="review__rating">8.9</div>
+                </figcaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  可以嗎天個覺得可想跟學習，三我明巴一次其實家一樣，比我好累那張，多也喜也很好我真的以來的，
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-2.jpg"
+                    alt="User 1"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">艾美</p>
+                    <p class="review__user-date">Feb 20th, 2024</p>
+                  </div>
+                  <div class="review__rating">9.3</div>
+                </figcaption>
+              </figure>
+
+              <button class="btn-inline">顯示全部<span>&rarr;</span></button>
+            </div>
+
+            <div class="cta">
+              <h2 class="cta__book-now">您選擇的日期還有 4 間客房</h2>
+              <button class="btn">
+                <span class="btn__visible">立即預訂</span>
+                <span class="btn__invisible">僅剩4間</span>
+              </button>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
